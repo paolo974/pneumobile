@@ -1,0 +1,285 @@
+@font-face {
+	font-family: "orig_bd_cartoon_shout";
+	src: url('BD_Cartoon_Shout.ttf');
+}
+
+.color_25 {
+	font-family: orig_bd_cartoon_shout;
+	color: white;
+	text-shadow:-1px -1px 0px rgba(0,0,0,0.498039), -1px 1px 0px rgba(0,0,0,0.498039), 1px 1px 0px rgba(0,0,0,0.498039), 1px -1px 0px rgba(0,0,0,0.498039);
+}
+
+.color_18 {
+	font-family: orig_bd_cartoon_shout;
+	color: #FC6000;
+	text-shadow:-1px -1px 0px rgba(0,0,0,0.498039), -1px 1px 0px rgba(0,0,0,0.498039), 1px 1px 0px rgba(0,0,0,0.498039), 1px -1px 0px rgba(0,0,0,0.498039);
+}
+
+body {
+	width:100%;
+	height:100%;
+	background-image: url("img/background.jpeg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1.mytitle {
+	font-size: 48px;
+}
+
+.row.mytitle > div > h3 {
+	font-size: 24px;
+}
+
+.row.mytitle > div > h5 {
+	font-size: 20px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px; /* or 950px */
+}
+
+.container.mytitle{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 910px; /* or 950px */
+}
+
+.container.mynav{
+margin-right: auto;
+  margin-left: auto;
+  max-width: 1030px;
+}
+
+.man > img{
+	height: 400px;
+	
+}
+
+
+.row.mynav{
+	font-size: 30px;
+}
+
+.row {
+	padding: 5px;
+}
+
+.row.mylist {
+	border-radius: 10px;
+	border: 2px solid #636363;
+	background-color: white;
+	
+}
+
+.sep {
+	margin-bottom: 15px;
+}
+
+
+.mywrapper {
+	height: 120px;	
+}
+
+.mywrapper.myimg {
+	text-align: center;
+}
+
+.mywrapper.stats {
+	text-align: center;
+
+}
+.mywrapper.stats > .myitem{
+
+	margin-right: 9px;
+	padding-top: 20%;
+}
+
+.mywrapper.price {
+	text-align: center;
+	padding-top: 1.5%;
+}
+
+.myitem {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.myitem > img {
+	height: 20px;
+	width:  20px;
+}
+
+.myitem.marq{
+	line-height:35px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.myitem.prod{
+	line-height:30px;
+	display: block;
+	font-style: italic;
+	font-size: 13px;
+	width: 10em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.myitem.dime{
+	line-height:40px;
+	font-size: 12px;
+}
+
+.myitem.carb {
+	line-height:40px;
+}
+
+.myitem.carb > img {
+	margin-right: 3px;
+
+}
+
+.myitem.adhe{
+	line-height:40px;
+
+}
+
+.myitem.adhe > img {
+	margin-right: 3px;	
+}
+
+.myitem.nois{	
+	line-height:40px;
+}
+
+.myitem.nois > img {
+	margin-right: 3px;
+}
+
+.myitem.indice{
+	line-height:30px;
+
+}
+
+.myitem.vite{
+	line-height:30px;
+	margin-left: 5px;
+}
+
+.myitem.myimg > img {
+	width: 110px;
+	height: 80px;
+	margin-top: 18px;
+
+
+}
+
+.myitem.pric {
+	font-size: 30px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: green;
+	font-weight: bold;
+	display: block;
+}
+
+.myitem.devis {
+	margin-top: 15px;
+	font-family: "orig_bd_cartoon_shout";
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 18px;
+    background-color: rgba(41, 33, 28, 1);
+    border-width: 1px;
+    border-radius: 4px;
+	font-family: "orig_bd_cartoon_shout";
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(252, 96, 0, 1);
+    background-color: rgba(41, 33, 28, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    background-color: #fc6000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(252, 96, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #fc6000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #fc6000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fc6000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #29211c;
+}
+
+@media (max-width: 768px) {
+	.container {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 370px; /* or 950px */
+	}
+	
+    .mywrapper.myimg {
+		display: none;
+	}
+	
+	.mywrapper.stats > .myitem{
+		margin-right: 9px;
+		padding-top: 0px;
+		margin-left: 0px;
+	}
+	
+	.row.mytitle  > div > h1, h3{
+		text-align: center;
+	}
+	
+	.myitem.devis {
+		margin-top: 0px;
+	}
+	
+	.mywrapper.product {
+		height: 100px;
+	}
+	
+	.mywrapper.stats {
+		height: 50px;
+		margin-top: 25px;
+		text-align: left;
+
+		padding-left: 0px;
+	}
+	.mywrapper.price {
+		height: 90px;
+		
+	}
+	
+
+	
+
+	
+}

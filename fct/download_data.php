@@ -3,9 +3,9 @@
 
 function mymain() {
 	
-        $l = 195;
-        $h = 60;
-        $d = 15
+    $l = 195;
+    $h = 60;
+    $d = 15
 
 	//for ($l=130; $l<350; $l+=5)
 	//for ($h=40; $h<100; $h+=5)
@@ -81,7 +81,7 @@ function search($s_saison, $s_larg, $s_haut, $s_diam, $num_page) {
 		$r["img_pneu"] = $xpath->query(".//img[@data-cerberus='product-thumbnail']", $d)->item(0)->getAttribute("src");
 		$r["img_pneu_src"] = $xpath->query(".//img[@data-cerberus='product-thumbnail']", $d)->item(0)->getAttribute("src");
 		$r["img_pneu_name"] = end(explode("/", $r["img_pneu_src"]));
-		$r["img_pneu_path"] = "img/pneu/" . $r["img_pneu_name"];
+		$r["img_pneu_path"] = "../img/pneu/" . $r["img_pneu_name"];
 		
 		$r["img_pneu_src"] = "http:" . $r["img_pneu_src"];
 		
@@ -100,7 +100,7 @@ function search($s_saison, $s_larg, $s_haut, $s_diam, $num_page) {
 		//file_put_contents($r["img_pneu_path"], getContentUrl($r["img_pneu_src"]));
 		//getContentUrl($r["img_pneu_path"], $r["img_pneu_src"]);
 		
-		echo "<img src='".$r["img_pneu_path"]."'/>";
+		//echo "<img src='".$r["img_pneu_path"]."'/>";
 		// copy($r["img_pneu_src"], "img/pneu/" . $r["img_pneu_name"]);
 		
 		//to_html($r, $res);
